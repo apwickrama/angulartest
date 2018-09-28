@@ -1,0 +1,33 @@
+<h3>General</h3>
+<mat-form-field>
+
+  <mat-select  placeholder="Country" [formControl]="countryControl" required>
+    <mat-option *ngFor="let country of countries" [value]="country">
+      {{country.name}}
+    </mat-option>
+  </mat-select>
+  <mat-error *ngIf="countryControl.hasError('required')">Please choose country</mat-error>
+  <!-- <mat-hint>{{animalControl.value?.sound}}</mat-hint> -->
+</mat-form-field>
+
+<mat-form-field>
+
+    <mat-select placeholder="Daypart" [formControl]="DaypartControl" required>
+      <mat-option *ngFor="let daypart of dayparts" [value]="daypart">
+        {{daypart.name}}
+      </mat-option>
+    </mat-select>
+    <mat-error *ngIf="DaypartControl.hasError('required')">Please choose Daypart</mat-error>
+     <!-- <mat-hint>{{animalControl.value?.sound}}</mat-hint> -->
+  </mat-form-field>
+
+  <mat-form-field>
+
+      <mat-select placeholder="Daypart version" [formControl]="DaypartVersionControl" required>
+        <mat-option *ngFor="let daypartsversion of daypartsversions" [value]="daypartsversion">
+          {{daypartsversion.name}}
+        </mat-option>
+      </mat-select>
+      <mat-error *ngIf="DaypartVersionControl.hasError('required')">Please choose Daypart version</mat-error>
+      <!-- <mat-hint>{{animalControl.value?.sound}}</mat-hint> -->
+    </mat-form-field>

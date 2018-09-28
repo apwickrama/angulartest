@@ -1,0 +1,33 @@
+<h3>Drive Thru </h3>
+<mat-form-field>
+
+  <mat-select  placeholder="DTtype" [formControl]="DtTypesControl" required>
+    <mat-option *ngFor="let DtType of DtTypes" [value]="DtType">
+      {{DtType.name}}
+    </mat-option>
+  </mat-select>
+  <mat-error *ngIf="DtTypesControl.hasError('required')">Please choose DTType</mat-error>
+  <!-- <mat-hint>{{animalControl.value?.sound}}</mat-hint> -->
+</mat-form-field>
+
+<mat-form-field>
+
+    <mat-select placeholder="DT RemoteOT" [formControl]="DTRemoteOTControl" required>
+      <mat-option *ngFor="let DtRemoteOT of DtRemoteOTs" [value]="DtRemoteOT">
+        {{DtRemoteOT.name}}
+      </mat-option>
+    </mat-select>
+    <mat-error *ngIf="DTRemoteOTControl.hasError('required')">Please choose DT RemoteOT</mat-error>
+     <!-- <mat-hint>{{animalControl.value?.sound}}</mat-hint> -->
+  </mat-form-field>
+
+  <mat-form-field>
+
+      <mat-select placeholder="Daypart version" [formControl]="DrinkModeControl" required>
+        <mat-option *ngFor="let DrinkMode of DrinkModes" [value]="DrinkMode">
+          {{DrinkMode.name}}
+        </mat-option>
+      </mat-select>
+      <mat-error *ngIf="DrinkModeControl.hasError('required')">Please choose Drink Mode</mat-error>
+      <!-- <mat-hint>{{animalControl.value?.sound}}</mat-hint> -->
+    </mat-form-field>

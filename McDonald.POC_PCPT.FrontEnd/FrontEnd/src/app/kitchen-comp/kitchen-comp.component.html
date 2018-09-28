@@ -1,0 +1,33 @@
+<h3>Kitchen </h3>
+<mat-form-field>
+
+  <mat-select  placeholder="Operating Platform" [formControl]="OperatingPlatformControl" required>
+    <mat-option *ngFor="let OperatingPlatform of OperatingPlatforms" [value]="OperatingPlatform">
+      {{OperatingPlatform.name}}
+    </mat-option>
+  </mat-select>
+  <mat-error *ngIf="OperatingPlatformControl.hasError('required')">Please choose Operating Platform</mat-error>
+  <!-- <mat-hint>{{animalControl.value?.sound}}</mat-hint> -->
+</mat-form-field>
+
+<mat-form-field>
+
+    <mat-select placeholder="Arch Dispenser" [formControl]="ArchDispenserControl" required>
+      <mat-option *ngFor="let ArchDispenser of ArchDispensers" [value]="ArchDispenser">
+        {{ArchDispenser.name}}
+      </mat-option>
+    </mat-select>
+    <mat-error *ngIf="ArchDispenserControl.hasError('required')">Please choose Arch Dispenser</mat-error>
+     <!-- <mat-hint>{{animalControl.value?.sound}}</mat-hint> -->
+  </mat-form-field>
+
+  <mat-form-field>
+
+      <mat-select placeholder="Fryer/Grill Wall" [formControl]="FryerWallControl" required>
+        <mat-option *ngFor="let FryerWall of FryerWalls" [value]="FryerWall">
+          {{FryerWall.name}}
+        </mat-option>
+      </mat-select>
+      <mat-error *ngIf="FryerWallControl.hasError('required')">Please choose Fryer/Grill Wall</mat-error>
+      <!-- <mat-hint>{{animalControl.value?.sound}}</mat-hint> -->
+    </mat-form-field>
