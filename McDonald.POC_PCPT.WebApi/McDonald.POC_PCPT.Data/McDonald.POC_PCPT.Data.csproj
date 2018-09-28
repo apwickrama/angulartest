@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Class1.cs" />
+    <Compile Remove="DriveThruModel.cs" />
+    <Compile Remove="FrontCounterModel.cs" />
+    <Compile Remove="GeneralModel.cs" />
+    <Compile Remove="KitchenModel.cs" />
+    <Compile Remove="PocMain.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.1.3" />
+  </ItemGroup>
+
+</Project>

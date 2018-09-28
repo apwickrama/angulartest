@@ -1,0 +1,9 @@
+C:\Users\rrafi\source\repos\McDonald.POC_PCPT.WebApi\McDonald.POC_PCPT.Data\bin\Debug\netcoreapp2.1\McDonald.POC_PCPT.Data.deps.json
+C:\Users\rrafi\source\repos\McDonald.POC_PCPT.WebApi\McDonald.POC_PCPT.Data\bin\Debug\netcoreapp2.1\McDonald.POC_PCPT.Data.dll
+C:\Users\rrafi\source\repos\McDonald.POC_PCPT.WebApi\McDonald.POC_PCPT.Data\obj\Debug\netcoreapp2.1\McDonald.POC_PCPT.Data.csproj.CoreCompileInputs.cache
+C:\Users\rrafi\source\repos\McDonald.POC_PCPT.WebApi\McDonald.POC_PCPT.Data\obj\Debug\netcoreapp2.1\McDonald.POC_PCPT.Data.AssemblyInfoInputs.cache
+C:\Users\rrafi\source\repos\McDonald.POC_PCPT.WebApi\McDonald.POC_PCPT.Data\obj\Debug\netcoreapp2.1\McDonald.POC_PCPT.Data.AssemblyInfo.cs
+C:\Users\rrafi\source\repos\McDonald.POC_PCPT.WebApi\McDonald.POC_PCPT.Data\bin\Debug\netcoreapp2.1\McDonald.POC_PCPT.Data.pdb
+C:\Users\rrafi\source\repos\McDonald.POC_PCPT.WebApi\McDonald.POC_PCPT.Data\obj\Debug\netcoreapp2.1\McDonald.POC_PCPT.Data.dll
+C:\Users\rrafi\source\repos\McDonald.POC_PCPT.WebApi\McDonald.POC_PCPT.Data\obj\Debug\netcoreapp2.1\McDonald.POC_PCPT.Data.pdb
+C:\Users\rrafi\source\repos\McDonald.POC_PCPT.WebApi\McDonald.POC_PCPT.Data\obj\Debug\netcoreapp2.1\McDonald.POC_PCPT.Data.csprojAssemblyReference.cache
